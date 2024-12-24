@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="p-4 m-4">
-    <h1>Welcome to My Home Page</h1>
+    <h1 class="text-3xl text-fuchsia-800 text-center">Welcome to My Home Page</h1>
+    <div class="flex justify-evenly p-4">
+        <a href="/users">
+            <Button class="border bg-slate-300 rounded p-2">Users</Button>
+        </a>
+    
+        <a href="/posts">
+            <Button class="border bg-slate-300 rounded p-2">Posts</Button>
+        </a>
+    </div>
 </body>
 </html>
